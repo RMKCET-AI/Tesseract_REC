@@ -11,5 +11,5 @@ admin.site.index_title = "Dashboard Tesseract"
 urlpatterns = [
     path('', views.index),
     path('login/', views.user_login),
-    path('signup', views.user_signup, name='signup'),
+    path('signup/', views.user_signup),
 ]

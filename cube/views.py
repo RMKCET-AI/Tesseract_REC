@@ -9,7 +9,10 @@ from django.contrib.auth.decorators import login_required
 
 
 def index(request):
-    return render(request, 'cube/base.html')
+    if request.user.is_authenticated:
+        return redirect('/login')
+    else:
+        return redirect('/login')
 
 
 def user_login(request):
