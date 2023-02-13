@@ -5,8 +5,8 @@ from django.urls import path
 from django.contrib import admin
 
 admin.site.site_header = "REC Symposium"
-admin.site.site_title = "Tesseract Admin Panel"
-admin.site.index_title = "Dashboard Tesseract"
+admin.site.site_title = "Admin Panel Team O(1)"
+admin.site.index_title = "REC Tesseract"
 
 urlpatterns = [
     path('', views.index),

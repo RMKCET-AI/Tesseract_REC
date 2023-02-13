@@ -5,6 +5,7 @@
 __pycache__
 db.sqlite3
 media
+profile_pics
 
 # Backup files #
 *.bak
@@ -137,3 +138,4 @@ GitHub.sublime-settings
 .history
 /cube/migrations/
 /rough.py
+/profile_pics/
