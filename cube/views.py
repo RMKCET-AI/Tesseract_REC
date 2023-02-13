@@ -14,6 +14,8 @@ def index(request):
     else:
         return redirect('/login')
 
+def home(request):
+    return render(request,'cube/home.html')
 
 def user_login(request):
     return render(request, 'cube/login.html')
