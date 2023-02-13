@@ -9,5 +9,7 @@ admin.site.site_title = "Tesseract Admin Panel"
 admin.site.index_title = "Dashboard Tesseract"
 
 urlpatterns = [
-    path('', views.index, name='index'),
+    path('', views.index),
+    path('login/', views.user_login),
+    path('signup', views.user_signup, name='signup'),
 ]
